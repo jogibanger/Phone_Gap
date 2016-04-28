@@ -1,0 +1,146 @@
+﻿/*Select Date and Rto Container*/
+
+.div_head
+{
+    background-color:#c393cf;
+    font-size:22px;
+    font-family:'Times New Roman';
+    text-align:center;
+    width:100%;
+    color:white;
+    
+    padding-top:0.1%;
+    padding-right:1%;
+    padding-left:1%;
+    padding-bottom:0.1%;
+   
+}
+   .div_container
+   {
+       width:100%;
+       padding-left:1%;
+       padding-right:1%;
+       padding-top:0.1%;
+       padding-bottom:0.5%;
+       background-color:aliceblue;
+   }
+
+   .div_fieldset
+   {
+      
+       font-size: small; 
+       color: white;
+       background-color:#007B8C;
+       align-items:center;
+   }
+  .fieldset_height
+  {
+      height:200px;
+  }
+  .center_smart{
+                padding-right: 10%;
+                padding-left:10%;
+            }
+      .text_align_center_smart{
+          text-align:center;
+      }
+ /*Fieldset*/
+
+ .div_width{
+     width:30%;
+     display:inline;
+
+ }
+ .headerstyle
+{
+color:#FFFFFF;
+border-right-color:#abb079;
+border-bottom-color:#abb079;
+background-color: grey;
+padding:5px 100px 100px 5px;
+text-align:left;
+}
+ .Color_fieldset{
+
+    background-color:#007B8C;
+  }
+
+ .mydatagrid
+{
+    width: 100%;
+    overflow: auto;
+    border:1px solid #ccc;
+    
+}
+
+.gvheader
+ {
+    background:#00C4F4;
+    font-size:12px;
+    height:15px;
+    font-family: Arial;
+}
+.gvrowalt {
+     background-color: #d6dadf;
+    font-size:12px;
+    font-family: Arial;
+}
+
+.gvrows
+{
+    background-color: #fff;
+    font-family: Arial;
+    font-size:12px;
+  }
+/*.rows:hover
+{
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    text-align: left;
+}*/
+.selectedrow
+{
+    background-color:white;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+.mydatagrid a /** FOR THE PAGING ICONS  */
+{
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+    background-color:#69A2AB;
+    color: #fff;
+}
+/*.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR 
+{
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}*/
+.pager
+{
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+.mydatagrid td
+{
+    padding: 5px;
+}
+.mydatagrid th
+{
+    padding: 5px;
+}
+
+
